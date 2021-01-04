@@ -25,7 +25,48 @@ header{
     font-size: 25px;
 }
 
-.hero{
+/* .hero{
     border: 2px solid blue;
     height: 90vh;
+} */
+
+.hero img{
+    max-width: 30%;
+    height: auto;
+    display:block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+.hero h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.hero p{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+.hero button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.hero div{
+    text-align: center;
+}
+
